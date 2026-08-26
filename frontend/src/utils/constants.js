@@ -8,8 +8,7 @@
 
 import { Hash, ListChecks, Split, ToggleLeft, Type } from 'lucide-react'
 
-export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'
-
+export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://stapubox.onrender.com'
 export const FALLBACK_SPORTS = [
   'Cricket',
   'Football',
