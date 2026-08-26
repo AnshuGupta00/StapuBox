@@ -1,0 +1,220 @@
+{
+  "sport": "Cricket",
+  "facts": [
+    {
+      "question": "How many international centuries did Sachin Tendulkar score?",
+      "answer": "100",
+      "distractors": [
+        "94",
+        "108",
+        "112"
+      ],
+      "statement": "Sachin Tendulkar scored 100 international centuries.",
+      "explanation": "Tendulkar finished with 100 international centuries — 51 in Tests and 49 in ODIs.",
+      "number": 100,
+      "unit": "centuries",
+      "tags": []
+    },
+    {
+      "question": "How many runs did Brian Lara score in his record Test innings?",
+      "answer": "400",
+      "distractors": [
+        "375",
+        "380",
+        "404"
+      ],
+      "statement": "Brian Lara scored 400 not out in a Test innings against England.",
+      "explanation": "Lara's 400 not out against England in 2004 remains the highest individual Test score.",
+      "number": 400,
+      "unit": "runs",
+      "tags": []
+    },
+    {
+      "question": "How many Test wickets did Muttiah Muralitharan take?",
+      "answer": "800",
+      "distractors": [
+        "708",
+        "619",
+        "755"
+      ],
+      "statement": "Muttiah Muralitharan took 800 Test wickets.",
+      "explanation": "Muralitharan's 800 Test wickets is the most by any bowler in the format.",
+      "number": 800,
+      "unit": "wickets",
+      "tags": []
+    },
+    {
+      "question": "How many Cricket World Cup titles has Australia won?",
+      "answer": "6",
+      "distractors": [
+        "4",
+        "5",
+        "7"
+      ],
+      "statement": "Australia have won 6 Cricket World Cup titles.",
+      "explanation": "Australia lifted the trophy in 1987, 1999, 2003, 2007, 2015 and 2023.",
+      "number": 6,
+      "unit": "titles",
+      "tags": []
+    },
+    {
+      "question": "What is the highest individual score in a men's ODI innings?",
+      "answer": "264",
+      "distractors": [
+        "237",
+        "219",
+        "250"
+      ],
+      "statement": "Rohit Sharma scored 264 in a men's ODI innings.",
+      "explanation": "Rohit Sharma's 264 against Sri Lanka in 2014 is the highest men's ODI score.",
+      "number": 264,
+      "unit": "runs",
+      "tags": []
+    },
+    {
+      "question": "In which year did India first win the Cricket World Cup?",
+      "answer": "1983",
+      "distractors": [
+        "1975",
+        "1987",
+        "1992"
+      ],
+      "statement": "India won their first Cricket World Cup in 1983.",
+      "explanation": "India beat the West Indies in the 1983 final at Lord's.",
+      "tags": []
+    },
+    {
+      "question": "How many wickets did Anil Kumble take in a single Test innings against Pakistan in 1999?",
+      "answer": "10",
+      "distractors": [
+        "7",
+        "8",
+        "9"
+      ],
+      "statement": "Anil Kumble took 10 wickets in a single Test innings against Pakistan in 1999.",
+      "explanation": "Kumble's 10 for 74 in Delhi made him only the second bowler to take all ten in a Test innings.",
+      "number": 10,
+      "unit": "wickets",
+      "tags": [
+        "record",
+        "bowling"
+      ]
+    },
+    {
+      "question": "How many overs does each side bowl in a standard One Day International?",
+      "answer": "50",
+      "distractors": [
+        "20",
+        "40",
+        "60"
+      ],
+      "statement": "Each side bowls 50 overs in a standard One Day International.",
+      "explanation": "The 50-over format has been the ODI standard since the 1987 World Cup.",
+      "number": 50,
+      "unit": "overs",
+      "tags": [
+        "rules",
+        "format"
+      ]
+    },
+    {
+      "question": "What was Don Bradman's Test batting average?",
+      "answer": "99.94",
+      "distractors": [
+        "94.99",
+        "95.14",
+        "98.66"
+      ],
+      "statement": "Don Bradman finished with a Test batting average of 99.94.",
+      "explanation": "Bradman scored 6,996 runs in 52 Tests, leaving him four runs short of a round 100 average.",
+      "number": 99.94,
+      "tags": [
+        "record",
+        "batting"
+      ]
+    },
+    {
+      "question": "How many runs did Sachin Tendulkar score across international cricket?",
+      "answer": "34,357",
+      "distractors": [
+        "31,258",
+        "33,426",
+        "35,900"
+      ],
+      "statement": "Sachin Tendulkar scored 34,357 runs across international cricket.",
+      "explanation": "Tendulkar's total spans 15,921 Test runs, 18,426 in ODIs and 10 in his single T20I.",
+      "number": 34357,
+      "unit": "runs",
+      "tags": [
+        "record",
+        "batting"
+      ]
+    },
+    {
+      "question": "What is the highest team total in a Test innings?",
+      "answer": "952",
+      "distractors": [
+        "849",
+        "903",
+        "971"
+      ],
+      "statement": "Sri Lanka's total of 952 for 6 is the highest team score in a Test innings.",
+      "explanation": "Sri Lanka piled up 952 for 6 against India in Colombo in 1997.",
+      "number": 952,
+      "unit": "runs",
+      "tags": [
+        "record",
+        "team"
+      ]
+    },
+    {
+      "question": "How many wickets did Jim Laker take in a single Ashes Test at Old Trafford?",
+      "answer": "19",
+      "distractors": [
+        "15",
+        "17",
+        "18"
+      ],
+      "statement": "Jim Laker took 19 wickets in a single Ashes Test at Old Trafford.",
+      "explanation": "Laker's 19 for 90 against Australia in 1956 is still the best match haul in Test history.",
+      "number": 19,
+      "unit": "wickets",
+      "tags": [
+        "record",
+        "bowling"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "prompt": "Who's the greater ODI batter?",
+      "left": "Sachin Tendulkar",
+      "right": "Virat Kohli"
+    },
+    {
+      "prompt": "Which format is the real test of skill?",
+      "left": "Test cricket",
+      "right": "T20 cricket"
+    },
+    {
+      "prompt": "Who's the better white-ball captain?",
+      "left": "MS Dhoni",
+      "right": "Rohit Sharma"
+    },
+    {
+      "prompt": "What wins more matches?",
+      "left": "Spin",
+      "right": "Pace"
+    },
+    {
+      "prompt": "Who's the better fast bowler?",
+      "left": "Jasprit Bumrah",
+      "right": "Pat Cummins"
+    },
+    {
+      "prompt": "What's the better way to win a chase-friendly game?",
+      "left": "Bat first",
+      "right": "Chase"
+    }
+  ]
+}

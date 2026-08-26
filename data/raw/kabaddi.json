@@ -1,0 +1,142 @@
+{
+  "sport": "Kabaddi",
+  "facts": [
+    {
+      "question": "How many players per team are on court in kabaddi?",
+      "answer": "7",
+      "distractors": [
+        "5",
+        "6",
+        "9"
+      ],
+      "statement": "Kabaddi is played with 7 players per team on court.",
+      "explanation": "Each side has seven players on court at a time.",
+      "number": 7,
+      "unit": "players",
+      "tags": []
+    },
+    {
+      "question": "Which team won the inaugural Pro Kabaddi League season?",
+      "answer": "Jaipur Pink Panthers",
+      "distractors": [
+        "U Mumba",
+        "Patna Pirates",
+        "Bengaluru Bulls"
+      ],
+      "statement": "Jaipur Pink Panthers won the inaugural Pro Kabaddi League season.",
+      "explanation": "Jaipur took the first Pro Kabaddi title in 2014.",
+      "tags": []
+    },
+    {
+      "question": "In which country did kabaddi originate?",
+      "answer": "India",
+      "distractors": [
+        "Iran",
+        "Bangladesh",
+        "Nepal"
+      ],
+      "statement": "Kabaddi originated in India.",
+      "explanation": "The sport has its roots in ancient India.",
+      "tags": []
+    },
+    {
+      "question": "How many minutes long is a standard kabaddi match?",
+      "answer": "40",
+      "distractors": [
+        "20",
+        "30",
+        "60"
+      ],
+      "statement": "A standard kabaddi match lasts 40 minutes, split into two halves.",
+      "explanation": "Two 20-minute halves are separated by a five-minute break.",
+      "number": 40,
+      "unit": "minutes",
+      "tags": [
+        "rules"
+      ]
+    },
+    {
+      "question": "In which year did the Pro Kabaddi League begin?",
+      "answer": "2014",
+      "distractors": [
+        "2008",
+        "2012",
+        "2016"
+      ],
+      "statement": "The Pro Kabaddi League began in 2014.",
+      "explanation": "The league's launch turned kabaddi into one of India's most-watched televised sports.",
+      "tags": [
+        "league",
+        "india"
+      ]
+    },
+    {
+      "question": "Which team won three consecutive Pro Kabaddi League titles?",
+      "answer": "Patna Pirates",
+      "distractors": [
+        "U Mumba",
+        "Bengaluru Bulls",
+        "Bengal Warriors"
+      ],
+      "statement": "Patna Pirates won three consecutive Pro Kabaddi League titles.",
+      "explanation": "Patna took seasons 3, 4 and 5, the only PKL three-peat so far.",
+      "tags": [
+        "league",
+        "champions"
+      ]
+    },
+    {
+      "question": "How many seconds does a raider have to complete a raid in kabaddi?",
+      "answer": "30",
+      "distractors": [
+        "15",
+        "20",
+        "45"
+      ],
+      "statement": "A raider has 30 seconds to complete a raid in kabaddi.",
+      "explanation": "Exceeding the raid clock hands the point to the defending side.",
+      "number": 30,
+      "unit": "seconds",
+      "tags": [
+        "rules"
+      ]
+    },
+    {
+      "question": "Which country won the first Kabaddi World Cup in 2004?",
+      "answer": "India",
+      "distractors": [
+        "Iran",
+        "Pakistan",
+        "Bangladesh"
+      ],
+      "statement": "India won the first Kabaddi World Cup in 2004.",
+      "explanation": "India beat Iran in the final in Mumbai and went on to win every edition through 2016.",
+      "tags": [
+        "world cup",
+        "india"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "prompt": "Which role wins matches?",
+      "left": "Star raider",
+      "right": "Elite defender"
+    },
+    {
+      "prompt": "What's the better tackle?",
+      "left": "Ankle hold",
+      "right": "Dash"
+    },
+    {
+      "prompt": "Who's the greater raider?",
+      "left": "Pardeep Narwal",
+      "right": "Rahul Chaudhari"
+    },
+    {
+      "prompt": "Which is the bigger stage?",
+      "left": "Pro Kabaddi League",
+      "right": "Asian Games"
+    }
+  ]
+}

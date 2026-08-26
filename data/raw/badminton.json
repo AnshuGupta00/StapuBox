@@ -1,0 +1,211 @@
+{
+  "sport": "Badminton",
+  "facts": [
+    {
+      "question": "How many points win a badminton game under current scoring?",
+      "answer": "21",
+      "distractors": [
+        "11",
+        "15",
+        "25"
+      ],
+      "statement": "A badminton game is won at 21 points under current scoring.",
+      "explanation": "Matches are best-of-three games to 21 points.",
+      "number": 21,
+      "unit": "points",
+      "tags": []
+    },
+    {
+      "question": "Who was the first Indian to win a Badminton World Championships gold?",
+      "answer": "PV Sindhu",
+      "distractors": [
+        "Saina Nehwal",
+        "Jwala Gutta",
+        "Kidambi Srikanth"
+      ],
+      "statement": "PV Sindhu was the first Indian to win a Badminton World Championships gold.",
+      "explanation": "Sindhu took the world title in 2019 in Basel.",
+      "tags": []
+    },
+    {
+      "question": "How many Olympic singles gold medals did Lin Dan win?",
+      "answer": "2",
+      "distractors": [
+        "1",
+        "3",
+        "4"
+      ],
+      "statement": "Lin Dan won 2 Olympic singles gold medals.",
+      "explanation": "Lin Dan won singles gold in 2008 and again in 2012.",
+      "number": 2,
+      "unit": "golds",
+      "tags": []
+    },
+    {
+      "question": "Which tournament is badminton's premier men's international team event?",
+      "answer": "Thomas Cup",
+      "distractors": [
+        "Uber Cup",
+        "Sudirman Cup",
+        "Davis Cup"
+      ],
+      "statement": "The Thomas Cup is badminton's premier men's international team event.",
+      "explanation": "The Uber Cup is its women's equivalent.",
+      "tags": []
+    },
+    {
+      "question": "In which year did India first win the Thomas Cup?",
+      "answer": "2022",
+      "distractors": [
+        "2016",
+        "2018",
+        "2020"
+      ],
+      "statement": "India first won the Thomas Cup in 2022.",
+      "explanation": "India beat Indonesia in the 2022 final in Bangkok.",
+      "tags": []
+    },
+    {
+      "question": "Who won India's first Olympic badminton medal?",
+      "answer": "Saina Nehwal",
+      "distractors": [
+        "PV Sindhu",
+        "Parupalli Kashyap",
+        "Lakshya Sen"
+      ],
+      "statement": "Saina Nehwal won India's first Olympic badminton medal.",
+      "explanation": "Nehwal took bronze at London 2012.",
+      "tags": []
+    },
+    {
+      "question": "How many feathers are used in a standard shuttlecock?",
+      "answer": "16",
+      "distractors": [
+        "12",
+        "14",
+        "20"
+      ],
+      "statement": "A standard feathered shuttlecock uses 16 feathers.",
+      "explanation": "BWF rules specify 16 feathers of equal length fixed into the cork base.",
+      "number": 16,
+      "unit": "feathers",
+      "tags": [
+        "equipment",
+        "rules"
+      ]
+    },
+    {
+      "question": "Which is badminton's oldest international tournament?",
+      "answer": "All England Open",
+      "distractors": [
+        "Thomas Cup",
+        "Malaysia Open",
+        "World Championships"
+      ],
+      "statement": "The All England Open is badminton's oldest international tournament.",
+      "explanation": "First held in 1899, the All England was the sport's unofficial world championship for decades.",
+      "tags": [
+        "history",
+        "tournament"
+      ]
+    },
+    {
+      "question": "How many metres long is a badminton court?",
+      "answer": "13.4",
+      "distractors": [
+        "11.9",
+        "12.2",
+        "15.0"
+      ],
+      "statement": "A badminton court is 13.4 metres long.",
+      "explanation": "The full court measures 13.4m by 6.1m for doubles and 5.18m wide for singles.",
+      "number": 13.4,
+      "unit": "metres",
+      "tags": [
+        "rules",
+        "equipment"
+      ]
+    },
+    {
+      "question": "Which trophy is badminton's premier women's international team event?",
+      "answer": "Uber Cup",
+      "distractors": [
+        "Thomas Cup",
+        "Sudirman Cup",
+        "Fed Cup"
+      ],
+      "statement": "The Uber Cup is badminton's premier women's international team event.",
+      "explanation": "Named after Betty Uber, it has been contested since 1956 and is China's most dominated team title.",
+      "tags": [
+        "tournament",
+        "team"
+      ]
+    },
+    {
+      "question": "How many Olympic silver medals did Lee Chong Wei win?",
+      "answer": "3",
+      "distractors": [
+        "1",
+        "2",
+        "4"
+      ],
+      "statement": "Lee Chong Wei won 3 Olympic silver medals.",
+      "explanation": "The Malaysian lost the singles final in 2008, 2012 and 2016.",
+      "number": 3,
+      "unit": "silver medals",
+      "tags": [
+        "olympics",
+        "legend"
+      ]
+    },
+    {
+      "question": "How many Olympic medals has PV Sindhu won?",
+      "answer": "2",
+      "distractors": [
+        "1",
+        "3",
+        "4"
+      ],
+      "statement": "PV Sindhu has won 2 Olympic medals.",
+      "explanation": "Sindhu took silver at Rio 2016 and bronze at Tokyo 2020.",
+      "number": 2,
+      "unit": "medals",
+      "tags": [
+        "olympics",
+        "india"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "prompt": "Who's the greater singles player?",
+      "left": "Lin Dan",
+      "right": "Lee Chong Wei"
+    },
+    {
+      "prompt": "Which discipline is more exciting?",
+      "left": "Singles",
+      "right": "Doubles"
+    },
+    {
+      "prompt": "Who's India's greatest?",
+      "left": "PV Sindhu",
+      "right": "Saina Nehwal"
+    },
+    {
+      "prompt": "Which shot wins more points?",
+      "left": "Smash",
+      "right": "Drop shot"
+    },
+    {
+      "prompt": "Which rally is better?",
+      "left": "Long defensive rally",
+      "right": "Fast attacking exchange"
+    },
+    {
+      "prompt": "Who's the better modern men's singles player?",
+      "left": "Viktor Axelsen",
+      "right": "Kento Momota"
+    }
+  ]
+}

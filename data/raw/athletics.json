@@ -1,0 +1,154 @@
+{
+  "sport": "Athletics",
+  "facts": [
+    {
+      "question": "What is Usain Bolt's 100m world record time in seconds?",
+      "answer": "9.58",
+      "distractors": [
+        "9.63",
+        "9.69",
+        "9.72"
+      ],
+      "statement": "Usain Bolt's 100m world record is 9.58 seconds.",
+      "explanation": "Bolt set 9.58s at the 2009 World Championships in Berlin.",
+      "number": 9.58,
+      "unit": "seconds",
+      "tags": []
+    },
+    {
+      "question": "How many Olympic gold medals did Usain Bolt win?",
+      "answer": "8",
+      "distractors": [
+        "6",
+        "7",
+        "9"
+      ],
+      "statement": "Usain Bolt won 8 Olympic gold medals.",
+      "explanation": "Bolt won eight golds across the 2008, 2012 and 2016 Games.",
+      "number": 8,
+      "unit": "golds",
+      "tags": []
+    },
+    {
+      "question": "How many Olympic gold medals did Carl Lewis win?",
+      "answer": "9",
+      "distractors": [
+        "7",
+        "8",
+        "10"
+      ],
+      "statement": "Carl Lewis won 9 Olympic gold medals.",
+      "explanation": "Lewis won nine golds across four Olympic Games.",
+      "number": 9,
+      "unit": "golds",
+      "tags": []
+    },
+    {
+      "question": "How many kilometres long is a marathon?",
+      "answer": "42.195",
+      "distractors": [
+        "40.195",
+        "41.195",
+        "42.915"
+      ],
+      "statement": "A marathon covers 42.195 kilometres.",
+      "explanation": "The distance was fixed at 26 miles 385 yards after the 1908 London Olympics.",
+      "number": 42.195,
+      "unit": "kilometres",
+      "tags": [
+        "rules",
+        "distance"
+      ]
+    },
+    {
+      "question": "What is Usain Bolt's 200m world record time in seconds?",
+      "answer": "19.19",
+      "distractors": [
+        "19.02",
+        "19.30",
+        "19.32"
+      ],
+      "statement": "Usain Bolt's 200m world record is 19.19 seconds.",
+      "explanation": "Bolt set it at the 2009 World Championships in Berlin, days after his 9.58 in the 100m.",
+      "number": 19.19,
+      "unit": "seconds",
+      "tags": [
+        "record",
+        "sprint"
+      ]
+    },
+    {
+      "question": "What is the women's 100m world record time in seconds?",
+      "answer": "10.49",
+      "distractors": [
+        "10.41",
+        "10.54",
+        "10.65"
+      ],
+      "statement": "Florence Griffith-Joyner's women's 100m world record is 10.49 seconds.",
+      "explanation": "Set at the 1988 US Olympic Trials, it has stood longer than any other sprint record.",
+      "number": 10.49,
+      "unit": "seconds",
+      "tags": [
+        "record",
+        "sprint"
+      ]
+    },
+    {
+      "question": "How many events make up the men's decathlon?",
+      "answer": "10",
+      "distractors": [
+        "7",
+        "8",
+        "12"
+      ],
+      "statement": "The men's decathlon is made up of 10 events.",
+      "explanation": "Ten events across two days, from the 100m to the 1500m, decide the score.",
+      "number": 10,
+      "unit": "events",
+      "tags": [
+        "rules",
+        "combined events"
+      ]
+    },
+    {
+      "question": "How many laps of a standard outdoor track is the 1500m?",
+      "answer": "3.75",
+      "distractors": [
+        "3",
+        "4",
+        "4.5"
+      ],
+      "statement": "The 1500m is 3.75 laps of a standard 400m outdoor track.",
+      "explanation": "Because the race starts on the back straight it is often called the metric mile.",
+      "number": 3.75,
+      "unit": "laps",
+      "tags": [
+        "rules",
+        "distance"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "prompt": "Which is the blue-riband event?",
+      "left": "100m",
+      "right": "Marathon"
+    },
+    {
+      "prompt": "Who's the greater Olympian?",
+      "left": "Usain Bolt",
+      "right": "Carl Lewis"
+    },
+    {
+      "prompt": "Which is the harder test?",
+      "left": "Decathlon",
+      "right": "Marathon"
+    },
+    {
+      "prompt": "What makes a sprinter?",
+      "left": "Raw top speed",
+      "right": "Perfect start"
+    }
+  ]
+}

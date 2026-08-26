@@ -1,0 +1,151 @@
+{
+  "sport": "Formula 1",
+  "facts": [
+    {
+      "question": "How many Formula 1 World Championships has Lewis Hamilton won?",
+      "answer": "7",
+      "distractors": [
+        "5",
+        "6",
+        "8"
+      ],
+      "statement": "Lewis Hamilton has won 7 Formula 1 World Championships.",
+      "explanation": "Hamilton's seven titles equal Michael Schumacher's record.",
+      "number": 7,
+      "unit": "titles",
+      "tags": []
+    },
+    {
+      "question": "Who holds the record for most Formula 1 race wins?",
+      "answer": "Lewis Hamilton",
+      "distractors": [
+        "Michael Schumacher",
+        "Sebastian Vettel",
+        "Ayrton Senna"
+      ],
+      "statement": "Lewis Hamilton holds the record for most Formula 1 race wins.",
+      "explanation": "Hamilton passed Schumacher's win record in 2020.",
+      "tags": []
+    },
+    {
+      "question": "How many Formula 1 World Championships has Max Verstappen won?",
+      "answer": "4",
+      "distractors": [
+        "2",
+        "3",
+        "5"
+      ],
+      "statement": "Max Verstappen has won 4 Formula 1 World Championships.",
+      "explanation": "Verstappen won four straight titles from 2021 to 2024.",
+      "number": 4,
+      "unit": "titles",
+      "tags": []
+    },
+    {
+      "question": "How many Formula 1 World Championships did Michael Schumacher win?",
+      "answer": "7",
+      "distractors": [
+        "4",
+        "5",
+        "8"
+      ],
+      "statement": "Michael Schumacher won 7 Formula 1 World Championships.",
+      "explanation": "Schumacher took the 1994 and 1995 titles with Benetton and five in a row with Ferrari.",
+      "number": 7,
+      "unit": "titles",
+      "tags": [
+        "record",
+        "driver"
+      ]
+    },
+    {
+      "question": "How many points does a Formula 1 race winner score?",
+      "answer": "25",
+      "distractors": [
+        "10",
+        "18",
+        "30"
+      ],
+      "statement": "A Formula 1 race winner scores 25 championship points.",
+      "explanation": "The current system awards 25-18-15 for the podium, down to one point for tenth.",
+      "number": 25,
+      "unit": "points",
+      "tags": [
+        "rules",
+        "scoring"
+      ]
+    },
+    {
+      "question": "How many Formula 1 Constructors' Championships has Ferrari won?",
+      "answer": "16",
+      "distractors": [
+        "12",
+        "14",
+        "19"
+      ],
+      "statement": "Ferrari have won 16 Formula 1 Constructors' Championships.",
+      "explanation": "Ferrari's most recent constructors' title came in 2008, and they are the only team to have raced every season.",
+      "number": 16,
+      "unit": "titles",
+      "tags": [
+        "record",
+        "team"
+      ]
+    },
+    {
+      "question": "How many Formula 1 World Championships did Sebastian Vettel win?",
+      "answer": "4",
+      "distractors": [
+        "2",
+        "3",
+        "5"
+      ],
+      "statement": "Sebastian Vettel won 4 Formula 1 World Championships.",
+      "explanation": "Vettel took four straight titles with Red Bull from 2010 to 2013.",
+      "number": 4,
+      "unit": "titles",
+      "tags": [
+        "driver"
+      ]
+    },
+    {
+      "question": "How many Grand Prix wins did Michael Schumacher finish his career with?",
+      "answer": "91",
+      "distractors": [
+        "84",
+        "95",
+        "103"
+      ],
+      "statement": "Michael Schumacher finished his career with 91 Grand Prix wins.",
+      "explanation": "Schumacher's 91 wins stood as the record until Lewis Hamilton passed it in 2020.",
+      "number": 91,
+      "unit": "wins",
+      "tags": [
+        "record",
+        "driver"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "prompt": "Who's the greater driver?",
+      "left": "Lewis Hamilton",
+      "right": "Michael Schumacher"
+    },
+    {
+      "prompt": "Which era sounded and raced better?",
+      "left": "V10 screamers",
+      "right": "Hybrid turbo era"
+    },
+    {
+      "prompt": "Which circuit is the real test?",
+      "left": "Monaco",
+      "right": "Spa-Francorchamps"
+    },
+    {
+      "prompt": "What wins a title?",
+      "left": "Fastest car",
+      "right": "Best driver"
+    }
+  ]
+}

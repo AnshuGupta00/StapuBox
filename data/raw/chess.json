@@ -1,0 +1,144 @@
+{
+  "sport": "Chess",
+  "facts": [
+    {
+      "question": "How many squares are on a chessboard?",
+      "answer": "64",
+      "distractors": [
+        "36",
+        "81",
+        "100"
+      ],
+      "statement": "A chessboard has 64 squares.",
+      "explanation": "The board is an eight-by-eight grid of 64 squares.",
+      "number": 64,
+      "unit": "squares",
+      "tags": []
+    },
+    {
+      "question": "Who was the first official World Chess Champion?",
+      "answer": "Wilhelm Steinitz",
+      "distractors": [
+        "Emanuel Lasker",
+        "Paul Morphy",
+        "Adolf Anderssen"
+      ],
+      "statement": "Wilhelm Steinitz was the first official World Chess Champion.",
+      "explanation": "Steinitz is recognised as the first official champion, from 1886.",
+      "tags": []
+    },
+    {
+      "question": "Who won the 2024 World Chess Championship?",
+      "answer": "D Gukesh",
+      "distractors": [
+        "Ding Liren",
+        "Magnus Carlsen",
+        "Ian Nepomniachtchi"
+      ],
+      "statement": "D Gukesh won the 2024 World Chess Championship.",
+      "explanation": "Gukesh beat Ding Liren to become the youngest undisputed champion.",
+      "tags": []
+    },
+    {
+      "question": "How many pieces does each player start a chess game with?",
+      "answer": "16",
+      "distractors": [
+        "8",
+        "12",
+        "20"
+      ],
+      "statement": "Each player starts a chess game with 16 pieces.",
+      "explanation": "Eight pawns plus a king, queen, two rooks, two knights and two bishops.",
+      "number": 16,
+      "unit": "pieces",
+      "tags": [
+        "rules"
+      ]
+    },
+    {
+      "question": "Which computer beat Garry Kasparov in their 1997 match?",
+      "answer": "Deep Blue",
+      "distractors": [
+        "Deep Thought",
+        "Stockfish",
+        "AlphaZero"
+      ],
+      "statement": "Deep Blue beat Garry Kasparov in their 1997 match.",
+      "explanation": "IBM's Deep Blue won 3.5-2.5 in New York, the first machine to beat a reigning world champion in a match.",
+      "tags": [
+        "history",
+        "computers"
+      ]
+    },
+    {
+      "question": "How many classical World Chess Championship titles did Magnus Carlsen win?",
+      "answer": "5",
+      "distractors": [
+        "3",
+        "4",
+        "6"
+      ],
+      "statement": "Magnus Carlsen won 5 classical World Chess Championship titles.",
+      "explanation": "Carlsen held the crown from 2013 to 2023, defending it in 2014, 2016, 2018 and 2021.",
+      "number": 5,
+      "unit": "titles",
+      "tags": [
+        "champion"
+      ]
+    },
+    {
+      "question": "What is the fewest number of moves in which checkmate can be delivered?",
+      "answer": "2",
+      "distractors": [
+        "1",
+        "3",
+        "4"
+      ],
+      "statement": "Checkmate can be delivered in as few as 2 moves.",
+      "explanation": "Fool's mate ends the game on Black's second move after two weakening White pawn moves.",
+      "number": 2,
+      "unit": "moves",
+      "tags": [
+        "rules",
+        "trivia"
+      ]
+    },
+    {
+      "question": "Who did Bobby Fischer beat to win the 1972 World Chess Championship?",
+      "answer": "Boris Spassky",
+      "distractors": [
+        "Tigran Petrosian",
+        "Mikhail Botvinnik",
+        "Anatoly Karpov"
+      ],
+      "statement": "Bobby Fischer beat Boris Spassky to win the 1972 World Chess Championship.",
+      "explanation": "The Reykjavik match ended Soviet dominance of the title for the first time since 1948.",
+      "tags": [
+        "history",
+        "champion"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "prompt": "Which format is the real test?",
+      "left": "Classical chess",
+      "right": "Blitz"
+    },
+    {
+      "prompt": "Who's the greatest ever?",
+      "left": "Magnus Carlsen",
+      "right": "Garry Kasparov"
+    },
+    {
+      "prompt": "Which first move do you trust?",
+      "left": "1.e4",
+      "right": "1.d4"
+    },
+    {
+      "prompt": "What decides a game?",
+      "left": "Deep preparation",
+      "right": "Raw calculation"
+    }
+  ]
+}

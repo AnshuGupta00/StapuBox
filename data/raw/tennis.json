@@ -1,0 +1,217 @@
+{
+  "sport": "Tennis",
+  "facts": [
+    {
+      "question": "How many men's Grand Slam singles titles has Novak Djokovic won?",
+      "answer": "24",
+      "distractors": [
+        "20",
+        "22",
+        "23"
+      ],
+      "statement": "Novak Djokovic has won 24 men's Grand Slam singles titles.",
+      "explanation": "Djokovic's 24 majors is the men's record.",
+      "number": 24,
+      "unit": "titles",
+      "tags": []
+    },
+    {
+      "question": "How many French Open singles titles has Rafael Nadal won?",
+      "answer": "14",
+      "distractors": [
+        "12",
+        "13",
+        "15"
+      ],
+      "statement": "Rafael Nadal has won 14 French Open singles titles.",
+      "explanation": "Nadal's 14 Roland Garros titles are the most at any single major.",
+      "number": 14,
+      "unit": "titles",
+      "tags": []
+    },
+    {
+      "question": "How many Wimbledon singles titles has Roger Federer won?",
+      "answer": "8",
+      "distractors": [
+        "6",
+        "7",
+        "9"
+      ],
+      "statement": "Roger Federer has won 8 Wimbledon singles titles.",
+      "explanation": "Federer's eight Wimbledon crowns are a men's record at the event.",
+      "number": 8,
+      "unit": "titles",
+      "tags": []
+    },
+    {
+      "question": "On which surface is Wimbledon played?",
+      "answer": "Grass",
+      "distractors": [
+        "Clay",
+        "Hard court",
+        "Carpet"
+      ],
+      "statement": "Wimbledon is played on Grass.",
+      "explanation": "Wimbledon is the only Grand Slam still played on grass.",
+      "tags": []
+    },
+    {
+      "question": "How many Grand Slam singles titles did Serena Williams win?",
+      "answer": "23",
+      "distractors": [
+        "21",
+        "22",
+        "24"
+      ],
+      "statement": "Serena Williams won 23 Grand Slam singles titles.",
+      "explanation": "Serena's 23 majors is the Open Era record.",
+      "number": 23,
+      "unit": "titles",
+      "tags": []
+    },
+    {
+      "question": "How many Grand Slam singles titles did Margaret Court win?",
+      "answer": "24",
+      "distractors": [
+        "22",
+        "23",
+        "26"
+      ],
+      "statement": "Margaret Court won 24 Grand Slam singles titles.",
+      "explanation": "Court's 24 majors is the all-time record across both tours.",
+      "number": 24,
+      "unit": "titles",
+      "tags": []
+    },
+    {
+      "question": "How many Grand Slam tournaments are played each year?",
+      "answer": "4",
+      "distractors": [
+        "2",
+        "3",
+        "6"
+      ],
+      "statement": "There are 4 Grand Slam tournaments each year.",
+      "explanation": "The Australian Open, French Open, Wimbledon and US Open make up the four majors.",
+      "number": 4,
+      "unit": "tournaments",
+      "tags": [
+        "rules",
+        "calendar"
+      ]
+    },
+    {
+      "question": "On which surface is the US Open played?",
+      "answer": "hard court",
+      "distractors": [
+        "clay",
+        "grass",
+        "carpet"
+      ],
+      "statement": "The US Open is played on hard court.",
+      "explanation": "The US Open switched from grass to clay in 1975 and to hard court in 1978.",
+      "tags": [
+        "surface"
+      ]
+    },
+    {
+      "question": "How many Grand Slam singles titles did Steffi Graf win?",
+      "answer": "22",
+      "distractors": [
+        "18",
+        "20",
+        "24"
+      ],
+      "statement": "Steffi Graf won 22 Grand Slam singles titles.",
+      "explanation": "Graf is the only player to win all four majors at least four times each.",
+      "number": 22,
+      "unit": "titles",
+      "tags": [
+        "record",
+        "womens"
+      ]
+    },
+    {
+      "question": "How many games were played in the final set of the 2010 Isner-Mahut match?",
+      "answer": "138",
+      "distractors": [
+        "112",
+        "124",
+        "150"
+      ],
+      "statement": "The final set of the 2010 Isner-Mahut match at Wimbledon lasted 138 games.",
+      "explanation": "John Isner won the deciding set 70-68 in a match spread over three days.",
+      "number": 138,
+      "unit": "games",
+      "tags": [
+        "record",
+        "wimbledon"
+      ]
+    },
+    {
+      "question": "How many Wimbledon singles titles did Martina Navratilova win?",
+      "answer": "9",
+      "distractors": [
+        "6",
+        "7",
+        "8"
+      ],
+      "statement": "Martina Navratilova won 9 Wimbledon singles titles.",
+      "explanation": "Navratilova's nine Wimbledon crowns include six in a row from 1982 to 1987.",
+      "number": 9,
+      "unit": "titles",
+      "tags": [
+        "record",
+        "wimbledon"
+      ]
+    },
+    {
+      "question": "How many points are needed to win a standard tiebreak?",
+      "answer": "7",
+      "distractors": [
+        "5",
+        "6",
+        "10"
+      ],
+      "statement": "A standard tiebreak is won by the first player to 7 points with a two-point margin.",
+      "explanation": "If the tiebreak reaches 6-6 it continues until one player leads by two.",
+      "number": 7,
+      "unit": "points",
+      "tags": [
+        "rules"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "prompt": "Who had the better forehand?",
+      "left": "Federer",
+      "right": "Nadal"
+    },
+    {
+      "prompt": "Which surface makes better tennis?",
+      "left": "Clay",
+      "right": "Grass"
+    },
+    {
+      "prompt": "Who's the men's GOAT?",
+      "left": "Djokovic",
+      "right": "Federer"
+    },
+    {
+      "prompt": "Who's the greater champion?",
+      "left": "Serena Williams",
+      "right": "Steffi Graf"
+    },
+    {
+      "prompt": "Who owns the next decade?",
+      "left": "Carlos Alcaraz",
+      "right": "Jannik Sinner"
+    },
+    {
+      "prompt": "Which style is more fun to watch?",
+      "left": "Serve and volley",
+      "right": "Baseline grinding"
+    }
+  ]
+}

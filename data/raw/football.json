@@ -1,0 +1,220 @@
+{
+  "sport": "Football",
+  "facts": [
+    {
+      "question": "How many Ballon d'Or awards has Lionel Messi won?",
+      "answer": "8",
+      "distractors": [
+        "5",
+        "6",
+        "7"
+      ],
+      "statement": "Lionel Messi has won 8 Ballon d'Or awards.",
+      "explanation": "Messi's eight Ballon d'Or wins are the most by any player.",
+      "number": 8,
+      "unit": "awards",
+      "tags": []
+    },
+    {
+      "question": "How many FIFA World Cups has Brazil won?",
+      "answer": "5",
+      "distractors": [
+        "3",
+        "4",
+        "6"
+      ],
+      "statement": "Brazil have won 5 FIFA World Cups.",
+      "explanation": "Brazil won in 1958, 1962, 1970, 1994 and 2002 — more than any other nation.",
+      "number": 5,
+      "unit": "titles",
+      "tags": []
+    },
+    {
+      "question": "How many goals did Miroslav Klose score across FIFA World Cups?",
+      "answer": "16",
+      "distractors": [
+        "14",
+        "15",
+        "17"
+      ],
+      "statement": "Miroslav Klose scored 16 goals across FIFA World Cups.",
+      "explanation": "Klose's 16 goals across four tournaments is the World Cup record.",
+      "number": 16,
+      "unit": "goals",
+      "tags": []
+    },
+    {
+      "question": "How many UEFA Champions League titles have Real Madrid won?",
+      "answer": "15",
+      "distractors": [
+        "12",
+        "13",
+        "14"
+      ],
+      "statement": "Real Madrid have won 15 UEFA Champions League titles.",
+      "explanation": "Real Madrid's 15th European crown came in 2024 against Borussia Dortmund.",
+      "number": 15,
+      "unit": "titles",
+      "tags": []
+    },
+    {
+      "question": "Which country did Argentina beat in the 2022 FIFA World Cup final?",
+      "answer": "France",
+      "distractors": [
+        "Brazil",
+        "Croatia",
+        "Germany"
+      ],
+      "statement": "Argentina beat France in the 2022 FIFA World Cup final.",
+      "explanation": "Argentina won on penalties after a 3-3 draw in Qatar.",
+      "tags": []
+    },
+    {
+      "question": "How many UEFA Champions League goals did Cristiano Ronaldo score?",
+      "answer": "140",
+      "distractors": [
+        "129",
+        "134",
+        "145"
+      ],
+      "statement": "Cristiano Ronaldo scored 140 UEFA Champions League goals.",
+      "explanation": "Ronaldo's 140 goals is the competition's all-time record.",
+      "number": 140,
+      "unit": "goals",
+      "tags": []
+    },
+    {
+      "question": "How many Premier League titles have Manchester United won?",
+      "answer": "13",
+      "distractors": [
+        "11",
+        "15",
+        "20"
+      ],
+      "statement": "Manchester United have won 13 Premier League titles.",
+      "explanation": "United won 13 titles between the 1992-93 and 2012-13 seasons, all under Alex Ferguson.",
+      "number": 13,
+      "unit": "titles",
+      "tags": [
+        "club",
+        "england"
+      ]
+    },
+    {
+      "question": "How many players from each team start a football match?",
+      "answer": "11",
+      "distractors": [
+        "9",
+        "10",
+        "12"
+      ],
+      "statement": "Each team starts a football match with 11 players.",
+      "explanation": "Laws of the Game require 11 per side, including the goalkeeper, and a minimum of seven to continue.",
+      "number": 11,
+      "unit": "players",
+      "tags": [
+        "rules"
+      ]
+    },
+    {
+      "question": "How many goals did Just Fontaine score at the 1958 World Cup?",
+      "answer": "13",
+      "distractors": [
+        "9",
+        "11",
+        "12"
+      ],
+      "statement": "Just Fontaine scored 13 goals at the 1958 World Cup.",
+      "explanation": "Fontaine's 13 goals in a single tournament remain a World Cup record.",
+      "number": 13,
+      "unit": "goals",
+      "tags": [
+        "record",
+        "world cup"
+      ]
+    },
+    {
+      "question": "How many FIFA World Cups has Germany won?",
+      "answer": "4",
+      "distractors": [
+        "2",
+        "3",
+        "5"
+      ],
+      "statement": "Germany have won 4 FIFA World Cups.",
+      "explanation": "West Germany won in 1954, 1974 and 1990; a reunified Germany added 2014.",
+      "number": 4,
+      "unit": "titles",
+      "tags": [
+        "world cup",
+        "nation"
+      ]
+    },
+    {
+      "question": "How many World Cups did Pele win with Brazil?",
+      "answer": "3",
+      "distractors": [
+        "1",
+        "2",
+        "4"
+      ],
+      "statement": "Pele won 3 World Cups with Brazil.",
+      "explanation": "Pele was part of the 1958, 1962 and 1970 winning squads, though injury limited him in 1962.",
+      "number": 3,
+      "unit": "titles",
+      "tags": [
+        "world cup",
+        "legend"
+      ]
+    },
+    {
+      "question": "How many goals did Erling Haaland score in the 2022-23 Premier League season?",
+      "answer": "36",
+      "distractors": [
+        "28",
+        "32",
+        "34"
+      ],
+      "statement": "Erling Haaland scored 36 goals in the 2022-23 Premier League season.",
+      "explanation": "Haaland's 36 broke the 38-game Premier League single-season record of 32.",
+      "number": 36,
+      "unit": "goals",
+      "tags": [
+        "record",
+        "england"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "prompt": "Who's the greater dribbler?",
+      "left": "Messi",
+      "right": "Ronaldo"
+    },
+    {
+      "prompt": "Which league is tougher to win?",
+      "left": "Premier League",
+      "right": "La Liga"
+    },
+    {
+      "prompt": "Who's the better manager?",
+      "left": "Pep Guardiola",
+      "right": "Jurgen Klopp"
+    },
+    {
+      "prompt": "Who's the greater icon?",
+      "left": "Pele",
+      "right": "Maradona"
+    },
+    {
+      "prompt": "Who's the better striker right now?",
+      "left": "Erling Haaland",
+      "right": "Kylian Mbappe"
+    },
+    {
+      "prompt": "Which is the greater rivalry?",
+      "left": "El Clasico",
+      "right": "Manchester derby"
+    }
+  ]
+}

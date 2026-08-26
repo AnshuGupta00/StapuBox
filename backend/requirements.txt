@@ -1,0 +1,16 @@
+fastapi>=0.115
+uvicorn[standard]>=0.34
+pydantic>=2.7
+python-dotenv>=1.0
+anthropic>=0.69
+chromadb>=0.5
+httpx>=0.27
+
+# Testing
+pytest>=8.0
+pytest-asyncio>=0.23
+
+# Optional: only needed if EMBEDDING_BACKEND=sentence-transformers.
+# Pulls in PyTorch (~2GB). The default ChromaDB ONNX embedding function
+# uses the same all-MiniLM-L6-v2 model without the PyTorch dependency.
+# sentence-transformers>=3.0

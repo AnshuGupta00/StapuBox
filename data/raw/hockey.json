@@ -1,0 +1,148 @@
+{
+  "sport": "Hockey",
+  "facts": [
+    {
+      "question": "How many Olympic gold medals has India won in field hockey?",
+      "answer": "8",
+      "distractors": [
+        "6",
+        "7",
+        "9"
+      ],
+      "statement": "India have won 8 Olympic gold medals in field hockey.",
+      "explanation": "India's eight hockey golds are the most by any nation.",
+      "number": 8,
+      "unit": "golds",
+      "tags": []
+    },
+    {
+      "question": "How many players per team are on the field in field hockey?",
+      "answer": "11",
+      "distractors": [
+        "9",
+        "10",
+        "12"
+      ],
+      "statement": "Field hockey is played with 11 players per team on the field.",
+      "explanation": "Each side fields ten outfield players and a goalkeeper.",
+      "number": 11,
+      "unit": "players",
+      "tags": []
+    },
+    {
+      "question": "In which year did India win its most recent Olympic hockey gold?",
+      "answer": "1980",
+      "distractors": [
+        "1964",
+        "1968",
+        "1976"
+      ],
+      "statement": "India won its most recent Olympic hockey gold in 1980.",
+      "explanation": "India took gold at the Moscow Games in 1980.",
+      "tags": []
+    },
+    {
+      "question": "How many minutes long is a modern international field hockey match?",
+      "answer": "60",
+      "distractors": [
+        "50",
+        "70",
+        "80"
+      ],
+      "statement": "A modern international field hockey match lasts 60 minutes, split into four quarters.",
+      "explanation": "The FIH moved from two 35-minute halves to four 15-minute quarters in 2014.",
+      "number": 60,
+      "unit": "minutes",
+      "tags": [
+        "rules"
+      ]
+    },
+    {
+      "question": "How many successive Olympic Games did India win hockey gold from 1928?",
+      "answer": "6",
+      "distractors": [
+        "3",
+        "4",
+        "5"
+      ],
+      "statement": "India won hockey gold at 6 successive Olympic Games from 1928 onwards.",
+      "explanation": "India's run covered Amsterdam, Los Angeles, Berlin, London, Helsinki and Melbourne.",
+      "number": 6,
+      "unit": "golds",
+      "tags": [
+        "record",
+        "india",
+        "olympics"
+      ]
+    },
+    {
+      "question": "How many Hockey World Cup titles has Pakistan won?",
+      "answer": "4",
+      "distractors": [
+        "2",
+        "3",
+        "5"
+      ],
+      "statement": "Pakistan have won 4 Hockey World Cup titles.",
+      "explanation": "Pakistan won in 1971, 1978, 1982 and 1994 - more than any other nation.",
+      "number": 4,
+      "unit": "titles",
+      "tags": [
+        "record",
+        "world cup"
+      ]
+    },
+    {
+      "question": "In which year was the first men's Hockey World Cup held?",
+      "answer": "1971",
+      "distractors": [
+        "1965",
+        "1975",
+        "1980"
+      ],
+      "statement": "The first men's Hockey World Cup was held in 1971.",
+      "explanation": "Pakistan beat Spain in the inaugural final in Barcelona.",
+      "tags": [
+        "history",
+        "world cup"
+      ]
+    },
+    {
+      "question": "Which medal did India win in men's hockey at the Tokyo 2020 Olympics?",
+      "answer": "bronze",
+      "distractors": [
+        "gold",
+        "silver",
+        "no medal"
+      ],
+      "statement": "India won the bronze medal in men's hockey at the Tokyo 2020 Olympics.",
+      "explanation": "The 5-4 win over Germany ended a 41-year wait for an Olympic hockey medal.",
+      "tags": [
+        "india",
+        "olympics"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "prompt": "Which is the tougher game?",
+      "left": "Field hockey",
+      "right": "Ice hockey"
+    },
+    {
+      "prompt": "What matters more on turf?",
+      "left": "Raw speed",
+      "right": "Stickwork"
+    },
+    {
+      "prompt": "Who's India's greatest?",
+      "left": "Dhyan Chand",
+      "right": "Balbir Singh Sr"
+    },
+    {
+      "prompt": "Which goal feels better?",
+      "left": "Penalty corner",
+      "right": "Open-play field goal"
+    }
+  ]
+}

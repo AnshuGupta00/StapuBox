@@ -1,0 +1,214 @@
+{
+  "sport": "Basketball",
+  "facts": [
+    {
+      "question": "How many NBA championships did Bill Russell win as a player?",
+      "answer": "11",
+      "distractors": [
+        "8",
+        "9",
+        "10"
+      ],
+      "statement": "Bill Russell won 11 NBA championships as a player.",
+      "explanation": "Russell won 11 titles in 13 seasons with the Boston Celtics.",
+      "number": 11,
+      "unit": "championships",
+      "tags": []
+    },
+    {
+      "question": "How many points did Wilt Chamberlain score in his record single game?",
+      "answer": "100",
+      "distractors": [
+        "73",
+        "81",
+        "95"
+      ],
+      "statement": "Wilt Chamberlain scored 100 points in a single NBA game.",
+      "explanation": "Chamberlain's 100-point game came in 1962 against the New York Knicks.",
+      "number": 100,
+      "unit": "points",
+      "tags": []
+    },
+    {
+      "question": "How many NBA titles did Michael Jordan win with the Chicago Bulls?",
+      "answer": "6",
+      "distractors": [
+        "4",
+        "5",
+        "7"
+      ],
+      "statement": "Michael Jordan won 6 NBA titles with the Chicago Bulls.",
+      "explanation": "Jordan led Chicago to two three-peats in the 1990s.",
+      "number": 6,
+      "unit": "titles",
+      "tags": []
+    },
+    {
+      "question": "Who invented basketball?",
+      "answer": "James Naismith",
+      "distractors": [
+        "Bill Russell",
+        "Adolph Rupp",
+        "John Wooden"
+      ],
+      "statement": "Basketball was invented by James Naismith.",
+      "explanation": "Naismith devised the game in 1891 in Springfield, Massachusetts.",
+      "tags": []
+    },
+    {
+      "question": "How many NBA regular-season MVP awards did Kareem Abdul-Jabbar win?",
+      "answer": "6",
+      "distractors": [
+        "3",
+        "4",
+        "5"
+      ],
+      "statement": "Kareem Abdul-Jabbar won 6 NBA regular-season MVP awards.",
+      "explanation": "Abdul-Jabbar's six MVPs is the most in league history.",
+      "number": 6,
+      "unit": "MVP awards",
+      "tags": []
+    },
+    {
+      "question": "Who became the NBA's all-time leading scorer in 2023?",
+      "answer": "LeBron James",
+      "distractors": [
+        "Kevin Durant",
+        "Karl Malone",
+        "Kobe Bryant"
+      ],
+      "statement": "LeBron James became the NBA's all-time leading scorer in 2023.",
+      "explanation": "James passed Kareem Abdul-Jabbar's record in February 2023.",
+      "tags": []
+    },
+    {
+      "question": "How many minutes long is a regulation NBA game?",
+      "answer": "48",
+      "distractors": [
+        "40",
+        "45",
+        "60"
+      ],
+      "statement": "A regulation NBA game lasts 48 minutes.",
+      "explanation": "The NBA plays four 12-minute quarters; FIBA and college games are shorter.",
+      "number": 48,
+      "unit": "minutes",
+      "tags": [
+        "rules"
+      ]
+    },
+    {
+      "question": "How many players from each team are on court in basketball?",
+      "answer": "5",
+      "distractors": [
+        "4",
+        "6",
+        "7"
+      ],
+      "statement": "Each basketball team has 5 players on court.",
+      "explanation": "Five per side has been standard since the early rule codifications of the 1890s.",
+      "number": 5,
+      "unit": "players",
+      "tags": [
+        "rules"
+      ]
+    },
+    {
+      "question": "How many career points did Kareem Abdul-Jabbar finish with?",
+      "answer": "38,387",
+      "distractors": [
+        "35,264",
+        "37,062",
+        "39,412"
+      ],
+      "statement": "Kareem Abdul-Jabbar finished his career with 38,387 points.",
+      "explanation": "His total stood as the NBA record for 39 years until LeBron James passed it in 2023.",
+      "number": 38387,
+      "unit": "points",
+      "tags": [
+        "record",
+        "scoring"
+      ]
+    },
+    {
+      "question": "How many career assists did John Stockton record?",
+      "answer": "15,806",
+      "distractors": [
+        "12,091",
+        "14,003",
+        "16,214"
+      ],
+      "statement": "John Stockton recorded 15,806 career assists.",
+      "explanation": "Stockton leads the NBA's all-time assists list by more than 3,000 over Jason Kidd.",
+      "number": 15806,
+      "unit": "assists",
+      "tags": [
+        "record",
+        "passing"
+      ]
+    },
+    {
+      "question": "How many seconds are on the NBA shot clock?",
+      "answer": "24",
+      "distractors": [
+        "20",
+        "30",
+        "35"
+      ],
+      "statement": "The NBA shot clock gives a team 24 seconds to attempt a shot.",
+      "explanation": "Introduced in 1954, the 24-second clock transformed the NBA's scoring rates.",
+      "number": 24,
+      "unit": "seconds",
+      "tags": [
+        "rules",
+        "history"
+      ]
+    },
+    {
+      "question": "Which team won the 2024 NBA championship?",
+      "answer": "Boston Celtics",
+      "distractors": [
+        "Dallas Mavericks",
+        "Denver Nuggets",
+        "Miami Heat"
+      ],
+      "statement": "The Boston Celtics won the 2024 NBA championship.",
+      "explanation": "Boston beat Dallas 4-1 in the Finals for a record-extending 18th title.",
+      "tags": [
+        "champions"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "prompt": "Who's the GOAT?",
+      "left": "Michael Jordan",
+      "right": "LeBron James"
+    },
+    {
+      "prompt": "One shot to win it — who takes it?",
+      "left": "Kobe Bryant",
+      "right": "Stephen Curry"
+    },
+    {
+      "prompt": "What actually wins championships?",
+      "left": "Defense",
+      "right": "Offense"
+    },
+    {
+      "prompt": "Who was the better rival?",
+      "left": "Magic Johnson",
+      "right": "Larry Bird"
+    },
+    {
+      "prompt": "Who was the more dominant big man?",
+      "left": "Shaquille O'Neal",
+      "right": "Tim Duncan"
+    },
+    {
+      "prompt": "Which is the better play?",
+      "left": "Poster dunk",
+      "right": "Deep three"
+    }
+  ]
+}
