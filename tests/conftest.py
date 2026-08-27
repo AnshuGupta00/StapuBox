@@ -20,10 +20,14 @@ sys.path.insert(0, str(PROJECT_ROOT / "backend"))
 
 _TMP = Path(tempfile.mkdtemp(prefix="sports-agent-tests-"))
 
+# Set all test environment variables BEFORE importing app modules
 os.environ["MOCK_LLM"] = "1"
 os.environ["HISTORY_PATH"] = str(_TMP / "ledger.jsonl")
 os.environ["CHROMA_PERSIST_DIR"] = str(_TMP / "chroma")
 os.environ["CHROMA_COLLECTION"] = "test_knowledge"
+
+# Prevent tests from reporting a real Anthropic key as configured
+os.environ["ANTHROPIC_API_KEY"] = ""
 
 from app.agent.freshness import NoveltyLedger  # noqa: E402
 from app.agent.orchestrator import ContentAgent  # noqa: E402
