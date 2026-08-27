@@ -1,9 +1,4 @@
-"""Central configuration, loaded once from the environment.
-
-Every tunable lives here so the rest of the app never reads ``os.environ``
-directly. Paths are resolved relative to the backend package root so the
-app behaves the same whether it is started from ``backend/`` or the repo root.
-"""
+"""Central configuration, loaded once from the environment."""
 
 from __future__ import annotations
 
@@ -37,8 +32,10 @@ def _int(name: str, default: int) -> int:
 def _path(name: str, default: str) -> Path:
     raw = os.getenv(name, "").strip() or default
     candidate = Path(raw)
+
     if not candidate.is_absolute():
         candidate = (BACKEND_ROOT / candidate).resolve()
+
     return candidate
 
 
@@ -46,43 +43,83 @@ class Settings:
     """Immutable-by-convention settings snapshot."""
 
     def __init__(self) -> None:
-        # LLM
-        self.anthropic_api_key: str = os.getenv("ANTHROPIC_API_KEY", "").strip()
-        self.llm_model: str = os.getenv("LLM_MODEL", "").strip() or "claude-opus-5"
+        # ---------------------------------------------------------
+        # LLM - Google Gemini
+        # ---------------------------------------------------------
+        self.gemini_api_key: str = os.getenv(
+            "GEMINI_API_KEY", ""
+        ).strip()
 
-        # Mock mode is implied when no key is configured, so a fresh clone
-        # still runs end to end instead of failing on the first request.
-        self.mock_llm: bool = _bool("MOCK_LLM", default=not self.anthropic_api_key)
+        self.llm_model: str = (
+            os.getenv("LLM_MODEL", "").strip()
+            or "gemini-2.5-flash"
+        )
 
+        # Mock mode is automatically enabled when no Gemini key exists.
+        self.mock_llm: bool = _bool(
+            "MOCK_LLM",
+            default=not self.gemini_api_key,
+        )
+
+        # ---------------------------------------------------------
         # Retrieval
-        self.chroma_persist_dir: Path = _path("CHROMA_PERSIST_DIR", "../chroma_db")
+        # ---------------------------------------------------------
+        self.chroma_persist_dir: Path = _path(
+            "CHROMA_PERSIST_DIR",
+            "../chroma_db",
+        )
+
         self.chroma_collection: str = (
-            os.getenv("CHROMA_COLLECTION", "").strip() or "sports_knowledge"
+            os.getenv("CHROMA_COLLECTION", "").strip()
+            or "sports_knowledge"
         )
+
         self.embedding_backend: str = (
-            os.getenv("EMBEDDING_BACKEND", "").strip() or "default"
+            os.getenv("EMBEDDING_BACKEND", "").strip()
+            or "default"
         )
-        self.enable_web_search: bool = _bool("ENABLE_WEB_SEARCH", default=True)
-        self.web_search_max_uses: int = _int("WEB_SEARCH_MAX_USES", 6)
 
+        self.enable_web_search: bool = _bool(
+            "ENABLE_WEB_SEARCH",
+            default=True,
+        )
+
+        self.web_search_max_uses: int = _int(
+            "WEB_SEARCH_MAX_USES",
+            6,
+        )
+
+        # ---------------------------------------------------------
         # Freshness
+        # ---------------------------------------------------------
         self.history_path: Path = _path(
-            "HISTORY_PATH", "../data/generated_history/ledger.jsonl"
+            "HISTORY_PATH",
+            "../data/generated_history/ledger.jsonl",
         )
-        self.novelty_lookback: int = _int("NOVELTY_LOOKBACK", 400)
 
+        self.novelty_lookback: int = _int(
+            "NOVELTY_LOOKBACK",
+            400,
+        )
+
+        # ---------------------------------------------------------
         # Server
+        # ---------------------------------------------------------
         raw_origins = os.getenv("CORS_ORIGINS", "").strip()
+
         self.cors_origins: list[str] = (
             [o.strip() for o in raw_origins.split(",") if o.strip()]
             if raw_origins
-            else ["http://localhost:5173", "http://127.0.0.1:5173"]
+            else [
+                "http://localhost:5173",
+                "http://127.0.0.1:5173",
+            ]
         )
 
     @property
     def live_llm(self) -> bool:
-        """True when real Anthropic calls should be made."""
-        return not self.mock_llm and bool(self.anthropic_api_key)
+        """True when real Gemini calls should be made."""
+        return not self.mock_llm and bool(self.gemini_api_key)
 
 
 @lru_cache(maxsize=1)
