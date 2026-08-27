@@ -1,6 +1,6 @@
 """Deterministic offline stand-in for the LLM.
 
-Active whenever ``ANTHROPIC_API_KEY`` is absent or ``MOCK_LLM=1``. It produces
+Active whenever ``GEMINI_API_KEY`` is absent or ``MOCK_LLM=1``. It produces
 schema-valid drafts for all five content types from the seed corpus in
 ``data/raw`` (see :mod:`app.corpus`), so the dashboard, validators, dedup ledger
 and API routes are all exercisable — and testable — without network access or

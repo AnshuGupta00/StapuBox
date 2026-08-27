@@ -35,7 +35,7 @@ async def lifespan(app: FastAPI):
         logger.info("LLM: live (%s)", settings.llm_model)
     else:
         logger.warning(
-            "LLM: MOCK mode — deterministic offline content. Set ANTHROPIC_API_KEY "
+            "LLM: MOCK mode — deterministic offline content. Set GEMINI_API_KEY "
             "in backend/.env for live generation with web search."
         )
     yield

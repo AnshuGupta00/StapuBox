@@ -27,11 +27,11 @@ def health() -> dict[str, object]:
         "llm": {
             "mode": "live" if settings.live_llm else "mock",
             "model": settings.llm_model,
-            "api_key_configured": bool(settings.anthropic_api_key),
+            "api_key_configured": bool(settings.gemini_api_key),
         },
         "web_search": {
             "enabled": settings.enable_web_search and settings.live_llm,
-            "tool": "server-side (Anthropic web_search)",
+            "tool": "server-side (Gemini web_search)",
             "max_uses": settings.web_search_max_uses,
             "note": (
                 None
